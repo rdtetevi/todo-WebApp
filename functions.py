@@ -17,7 +17,7 @@ def write_todos(todos_arg, filepath=FILEPATH):
     to-do items.
     :param todos_arg: todos argument
     :param filepath: file path
-    :return: list to-do items
+    :return: list to-do items.
     """
     with open(filepath, 'w') as file:
         file.writelines(todos_arg)
